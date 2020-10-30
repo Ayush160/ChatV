@@ -5,16 +5,16 @@ function setup() {
   createCanvas(400, 400);
   video=createCapture(VIDEO);
   video.hide();
-  //img=createImage(100,100);
+   mImg=loadImage('Screenshot_2020-10-30-06-25-48-646_com.google.android.apps.docs.jpg');
 
 }
 
 function draw() {
   background(220);
-  img=video.get(0,0,400,400);
-  mImg=loadImage('img.png');
-  image(mImg,0,0,width,height);
+  image(img,0,0);
+  
+
  
-  img.save('img','png');
+
   //noLoop();
 }
