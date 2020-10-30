@@ -4,7 +4,7 @@ let mImg;
 function setup() {
   createCanvas(400, 400);
   video=createCapture(VIDEO);
-  video.hide();
+ // video.hide();
    mImg=loadImage('Screenshot_2020-10-30-06-25-48-646_com.google.android.apps.docs.jpg');
 
 }
